@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
-import "package:flutter_learnings/1_roll_dice_app/my_text.dart";
+import "package:flutter_learnings/1_roll_dice_app/dice_roller.dart";
 
 // Styling
-const myLinearGradient = LinearGradient(
+const LinearGradient myLinearGradient = LinearGradient(
   colors: [
     Color.fromARGB(255, 247, 131, 168),
     Color.fromARGB(255, 253, 225, 234),
@@ -26,7 +26,7 @@ class MyContainer extends StatelessWidget {
         gradient: myLinearGradient,
       ),
       child: const Center(
-        child: MyText("Kon'nichiwa!"),
+        child: DiceRoller(),
       ),
     );
   }

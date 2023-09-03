@@ -13,10 +13,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'Dice Roll!',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text('Dice Roll!'),
+        ),
         // backgroundColor: const Color.fromARGB(255, 253, 225, 234),
-        body: MyContainer(),
+        body: const MyContainer(),
       ),
     );
   }
