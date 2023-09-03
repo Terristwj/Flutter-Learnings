@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "./my_text.dart";
+import "package:flutter_learnings/1_roll_dice_app/my_text.dart";
 
 // Styling
 const myLinearGradient = LinearGradient(
@@ -17,9 +17,7 @@ const myLinearGradient = LinearGradient(
 
 // Container Widget
 class MyContainer extends StatelessWidget {
-  const MyContainer({
-    super.key,
-  });
+  const MyContainer({super.key});
 
   @override
   Widget build(context) {
@@ -28,7 +26,7 @@ class MyContainer extends StatelessWidget {
         gradient: myLinearGradient,
       ),
       child: const Center(
-        child: MyText(),
+        child: MyText("Kon'nichiwa!"),
       ),
     );
   }

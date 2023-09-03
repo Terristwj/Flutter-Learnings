@@ -3,6 +3,11 @@
 Just learning flutter.
 A new Flutter project.
 
+## Reference Materials
+
+GitHub: [flutter-complete-guide-course-resources](https://github.com/academind/flutter-complete-guide-course-resources)
+Udemy Course: [Flutter & Dart by Maximilian Schwarzmüller](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

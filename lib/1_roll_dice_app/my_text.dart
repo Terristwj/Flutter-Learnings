@@ -8,14 +8,13 @@ const myTextStyle = TextStyle(
 
 // Text Widget
 class MyText extends StatelessWidget {
-  const MyText({
-    super.key,
-  });
+  const MyText(this.text, {super.key});
+  final String text;
 
   @override
   Widget build(context) {
-    return const Text(
-      "Kon'nichiwa!",
+    return Text(
+      text,
       style: myTextStyle,
     );
   }

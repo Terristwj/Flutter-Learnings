@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "./my_container.dart";
+import "package:flutter_learnings/1_roll_dice_app/my_container.dart";
 
 void main() {
   runApp(
