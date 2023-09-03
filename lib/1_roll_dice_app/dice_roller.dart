@@ -25,12 +25,7 @@ class _DiceRollerState extends State<DiceRoller> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisSize: MainAxisSize.min,
-      // mainAxisAlignment: MainAxisAlignment.center,
-      // crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        const MyText("Kon'nichiwa!", 48),
-        const SizedBox(height: 20),
         Image.asset(
           "assets/images/dice-$currentDiceRoll.png",
           // width: 200,
